@@ -1,0 +1,11 @@
+package oca.inheritance;
+
+public class A {
+    public A(){
+
+    }
+
+    public A(int i){
+
+    }
+}
