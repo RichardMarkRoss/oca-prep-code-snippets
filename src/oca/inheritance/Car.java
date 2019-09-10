@@ -15,13 +15,15 @@ public class Car {
         go = true;
         this.speed = speed;
     }
+    public int getSpeed(){
+            return this.speed;
+    }
 
     public static void main(String[] args) {
 
-        // (new Car()).accellerate();
-
-        new Car().accellerate();
-
+        Car car = new Car();
+        car.accellerate();
+        System.out.println(car.getSpeed());
     }
 
 }
