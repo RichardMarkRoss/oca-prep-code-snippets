@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/inheritance/CarRide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/inheritance/Cougar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/inheritance/FeedingSchedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/static_methods/Grasshopper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/arraylist/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/inheritance/PersonWalk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/inheritance/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/Scrumblies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/inheritance/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/inheritance/Car.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +34,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="714" />
   </component>
   <component name="ProjectId" id="1QSVKQUet40uV6EEzeNK8y1WWs4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -71,13 +66,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CarRide">
-    <configuration name="AboutInterfaceWithExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.inheritance.with_exceptions.AboutInterfaceWithExceptions" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.arraylist.Main" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.inheritance.with_exceptions.*" />
+          <option name="PATTERN" value="oca.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.inheritance.Car" />
+    <configuration name="Rectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.inheritance.Rectangle" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -98,8 +93,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarRide" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.inheritance.CarRide" />
+    <configuration name="Scrumblies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.Scrumblies" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.junk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.inheritance.Shape" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -111,25 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Cougar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.inheritance.Cougar" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.Solution" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FeedingSchedule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.inheritance.FeedingSchedule" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.inheritance.*" />
+          <option name="PATTERN" value="oca.junk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AboutInterfaceWithExceptions" />
-      <item itemvalue="Application.Car" />
-      <item itemvalue="Application.Cougar" />
-      <item itemvalue="Application.FeedingSchedule" />
-      <item itemvalue="Application.CarRide" />
+      <item itemvalue="Application.Shape" />
+      <item itemvalue="Application.Rectangle" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.Scrumblies" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarRide" />
-        <item itemvalue="Application.FeedingSchedule" />
-        <item itemvalue="Application.Cougar" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.AboutInterfaceWithExceptions" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.Scrumblies" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Rectangle" />
+        <item itemvalue="Application.Shape" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +194,14 @@
           <url>file://$PROJECT_DIR$/src/oca/encapsulation/Product.java</url>
           <line>43</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/oca/inheritance/Rectangle.java</url>
+          <line>3</line>
+          <properties class="Formattable">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
