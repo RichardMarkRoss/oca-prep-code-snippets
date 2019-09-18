@@ -5,29 +5,28 @@ class Mains {
     public static int[] nbMonths(int startPriceOld, int startPriceNew, int savingperMonth, double percentLossByMonth) {
         int oldPrice = startPriceOld;
         int newPrice = startPriceNew;
+        double percentage = percentLossByMonth;
         int counter = 0;
         int savings =0;
-        double percentLoss = percentLossByMonth;
         while(oldPrice < newPrice){
             counter++;
-            if((percentLoss % counter) == 0) {
-                percentLoss = Double.sum(percentLoss, 0.5);
+            if((counter % 2) == 0){
+                percentage = Double.sum(percentage, 0.5);
             }
-            System.out.println(percentLoss);
-            oldPrice -= (int) (( percentLoss * oldPrice ) / 100);
-            newPrice -= (int) (( percentLoss * newPrice ) / 100);
+            oldPrice -= (int) (( percentage * oldPrice ) / 100);
+            newPrice -= (int) (( percentage * newPrice ) / 100);
             if (((savingperMonth*counter)+oldPrice) >= newPrice){
-                savings = startPriceNew - newPrice;
-                System.out.println(savings);
+                savings = ((savingperMonth*counter)+oldPrice) % newPrice;
                 return new int[]{counter, savings};
             }
         }
-        return new int[]{counter, savings};
+        int largerAmount = startPriceOld-startPriceNew;
+        return new int[]{counter, largerAmount};
     }
 }
 
 public class BuyCar{
     public static void main(String[] args) {
-        Mains.nbMonths(2000,8000,1000,1.5);
+        Mains.nbMonths(12000, 8000, 1000, 1.5);
     }
 }
