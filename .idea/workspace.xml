@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/junk/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/junk/SmallInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/junk/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/TimeCon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/junk/TestEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/TestEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/junk/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/Animal.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,26 +60,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.TimeCon">
     <configuration name="Animal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oca.junk.Animal" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oca.junk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Ball" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.Bouncing.Ball" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.Bouncing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,20 +113,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TimeCon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.TimeCon" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.junk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Ball" />
       <item itemvalue="Application.BuyCar" />
       <item itemvalue="Application.TestEnum" />
       <item itemvalue="Application.Animal" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TimeCon" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TimeCon" />
         <item itemvalue="Application.Animal" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestEnum" />
         <item itemvalue="Application.BuyCar" />
-        <item itemvalue="Application.Ball" />
       </list>
     </recent_temporary>
   </component>
