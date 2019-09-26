@@ -10,6 +10,7 @@ public class IntPrim {
     static Boolean val3 = true;
 
     public static void main(String[] args) {
+        System.out.println(num2 == num3);//false
         System.out.println((Integer)num1 == num2);//false
         System.out.println((Integer)num1 == num3);//true
         System.out.println((Integer)num1 == num3);//true

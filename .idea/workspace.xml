@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/wappers/PlayingWithPrim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/wappers/PrimType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/PrimType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/two_dimensioanl_arrays/TaxiFare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/two_dimensioanl_arrays/TaxiFare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IntPrim">
+  <component name="RunManager" selected="Application.TaxiFare">
     <configuration name="EqualTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oca.Equality.EqualTo" />
       <module name="OCAExamples" />
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.junk.Test" />
+    <configuration name="TaxiFare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.two_dimensioanl_arrays.TaxiFare" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.junk.*" />
+          <option name="PATTERN" value="oca.two_dimensioanl_arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +127,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test" />
       <item itemvalue="Application.EqualTo" />
       <item itemvalue="Application.PrimType" />
       <item itemvalue="Application.PlayingWithPrim" />
       <item itemvalue="Application.IntPrim" />
+      <item itemvalue="Application.TaxiFare" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TaxiFare" />
+        <item itemvalue="Application.PrimType" />
         <item itemvalue="Application.IntPrim" />
         <item itemvalue="Application.PlayingWithPrim" />
-        <item itemvalue="Application.PrimType" />
         <item itemvalue="Application.EqualTo" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
