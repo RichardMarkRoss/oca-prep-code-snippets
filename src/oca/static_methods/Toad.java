@@ -10,9 +10,9 @@ public class Toad {
     }
 
     public static void main(String[] args) {
-//        new Toad();
-//        new Toad();
-//        new Toad();
+        new Toad();
+        new Toad();
+        new Toad();
         System.out.println(f.equals(z));
         Toad toad = new Toad();
         System.out.println("the toad count " + toadCount);
