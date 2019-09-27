@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/oca/wappers/BooleanPrim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/two_dimensioanl_arrays/TaxiFare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/two_dimensioanl_arrays/TaxiFare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/arraylist/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/arraylist/UseArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,22 +61,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TaxiFare">
-    <configuration name="EqualTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.Equality.EqualTo" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.Equality.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.wappers.IntPrim" />
+  <component name="RunManager" selected="Application.BooleanPrim">
+    <configuration name="BooleanPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.wappers.BooleanPrim" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -87,8 +75,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayingWithPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.wappers.PlayingWithPrim" />
+    <configuration name="IntPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.wappers.IntPrim" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -126,20 +114,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.arraylist.UseArrayList" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.arraylist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.EqualTo" />
       <item itemvalue="Application.PrimType" />
-      <item itemvalue="Application.PlayingWithPrim" />
       <item itemvalue="Application.IntPrim" />
       <item itemvalue="Application.TaxiFare" />
+      <item itemvalue="Application.UseArrayList" />
+      <item itemvalue="Application.BooleanPrim" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BooleanPrim" />
+        <item itemvalue="Application.IntPrim" />
+        <item itemvalue="Application.UseArrayList" />
         <item itemvalue="Application.TaxiFare" />
         <item itemvalue="Application.PrimType" />
-        <item itemvalue="Application.IntPrim" />
-        <item itemvalue="Application.PlayingWithPrim" />
-        <item itemvalue="Application.EqualTo" />
       </list>
     </recent_temporary>
   </component>

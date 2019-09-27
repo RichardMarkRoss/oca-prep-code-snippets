@@ -19,7 +19,6 @@ class Apple {
     }
 }
 
-
 public class UseArrayList {
 
     public static void main(String[] args) {
