@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/wappers/BooleanPrim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/Equality/StringBoolean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/javaApi/TimeApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/StringCharAt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Stringconcat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/arraylist/UseArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/arraylist/UseArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/wappers/BooleanPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/BooleanPrim.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/wappers/PlayingWithPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/PlayingWithPrim.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,9 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BooleanPrim">
-    <configuration name="BooleanPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.wappers.BooleanPrim" />
+  <component name="RunManager" selected="Application.TimeApi">
+    <configuration name="PlayingWithPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.wappers.PlayingWithPrim" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -75,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.wappers.IntPrim" />
+    <configuration name="StringBoolean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.Equality.StringBoolean" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.wappers.*" />
+          <option name="PATTERN" value="oca.Equality.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.wappers.PrimType" />
+    <configuration name="StringCharAt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.StringCharAt" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.wappers.*" />
+          <option name="PATTERN" value="playingWithStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TaxiFare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.two_dimensioanl_arrays.TaxiFare" />
+    <configuration name="Stringconcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Stringconcat" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.two_dimensioanl_arrays.*" />
+          <option name="PATTERN" value="playingWithStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.arraylist.UseArrayList" />
+    <configuration name="TimeApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.javaApi.TimeApi" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.arraylist.*" />
+          <option name="PATTERN" value="oca.javaApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PrimType" />
-      <item itemvalue="Application.IntPrim" />
-      <item itemvalue="Application.TaxiFare" />
-      <item itemvalue="Application.UseArrayList" />
-      <item itemvalue="Application.BooleanPrim" />
+      <item itemvalue="Application.PlayingWithPrim" />
+      <item itemvalue="Application.StringCharAt" />
+      <item itemvalue="Application.Stringconcat" />
+      <item itemvalue="Application.StringBoolean" />
+      <item itemvalue="Application.TimeApi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BooleanPrim" />
-        <item itemvalue="Application.IntPrim" />
-        <item itemvalue="Application.UseArrayList" />
-        <item itemvalue="Application.TaxiFare" />
-        <item itemvalue="Application.PrimType" />
+        <item itemvalue="Application.TimeApi" />
+        <item itemvalue="Application.StringBoolean" />
+        <item itemvalue="Application.Stringconcat" />
+        <item itemvalue="Application.StringCharAt" />
+        <item itemvalue="Application.PlayingWithPrim" />
       </list>
     </recent_temporary>
   </component>

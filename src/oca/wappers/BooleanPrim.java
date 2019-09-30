@@ -13,7 +13,6 @@ public class BooleanPrim {
         System.out.println(val1 == (boolean) val2);//true
         System.out.println(val1 == val2);//true
         System.out.println(val1 == (boolean) val3);//true
-//        System.out.println((Boolean)val1.equals(val2));
         System.out.println(val2.equals(val1));//true
         System.out.println(val3.equals(val2));//true
     }

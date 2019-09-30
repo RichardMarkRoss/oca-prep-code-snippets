@@ -13,7 +13,6 @@ public class IntPrim {
         System.out.println(num1 == (int) num2);//true
         System.out.println(num1 == num2);//true
         System.out.println(num1 == (int) num3);//true
-//        System.out.println((Integer)num1.equals(num2));
         System.out.println(num2.equals(num1));//true
         System.out.println(num3.equals(num2));//true
     }
