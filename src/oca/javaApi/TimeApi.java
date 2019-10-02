@@ -1,8 +1,5 @@
 package oca.javaApi;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.ZonedDateTime;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 
 public class TimeApi {
@@ -26,5 +23,10 @@ public class TimeApi {
         System.out.println(name == name);
         System.out.println(times == times);
         System.out.println(times.equals(run));
+
+        Period period = Period.of(9,8,30);
+        System.out.println(period);
+
+        System.out.println(dateTime.minus(period));
     }
 }

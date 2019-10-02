@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/Equality/StringBoolean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/javaApi/TimeApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/StringCharAt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Stringconcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/arraylist/ArrayListInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/arraylist/Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/javaApi/FindLeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/wappers/BooleanPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/BooleanPrim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/IntPrim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/wappers/PlayingWithPrim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/wappers/PlayingWithPrim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/javaApi/TimeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/javaApi/TimeApi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +64,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeApi">
-    <configuration name="PlayingWithPrim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.wappers.PlayingWithPrim" />
+  <component name="RunManager" selected="Application.FindLeap">
+    <configuration name="ArrayListInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.arraylist.ArrayListInt" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.wappers.*" />
+          <option name="PATTERN" value="oca.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBoolean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.Equality.StringBoolean" />
+    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.arraylist.Arrays" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.Equality.*" />
+          <option name="PATTERN" value="oca.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringCharAt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.StringCharAt" />
+    <configuration name="FindLeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.javaApi.FindLeap" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playingWithStrings.*" />
+          <option name="PATTERN" value="oca.javaApi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Stringconcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Stringconcat" />
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.Runner" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playingWithStrings.*" />
+          <option name="PATTERN" value="oca.junk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PlayingWithPrim" />
-      <item itemvalue="Application.StringCharAt" />
-      <item itemvalue="Application.Stringconcat" />
-      <item itemvalue="Application.StringBoolean" />
       <item itemvalue="Application.TimeApi" />
+      <item itemvalue="Application.FindLeap" />
+      <item itemvalue="Application.Runner" />
+      <item itemvalue="Application.Arrays" />
+      <item itemvalue="Application.ArrayListInt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindLeap" />
+        <item itemvalue="Application.Arrays" />
+        <item itemvalue="Application.ArrayListInt" />
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.TimeApi" />
-        <item itemvalue="Application.StringBoolean" />
-        <item itemvalue="Application.Stringconcat" />
-        <item itemvalue="Application.StringCharAt" />
-        <item itemvalue="Application.PlayingWithPrim" />
       </list>
     </recent_temporary>
   </component>
