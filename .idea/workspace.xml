@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/arraylist/ArrayListInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/arraylist/Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/javaApi/FindLeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/junk/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/arraylist/ArrayList4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/exceptions/ExcepCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/javaApi/TimeApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/javaApi/TimeApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/exceptions/AboutFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/exceptions/AboutFinally.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +61,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindLeap">
-    <configuration name="ArrayListInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.arraylist.ArrayListInt" />
+  <component name="RunManager" selected="Application.ArrayList4">
+    <configuration name="AboutFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.exceptions.AboutFinally" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AboutMyExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.exceptions.AboutMyExceptions" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayList4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.arraylist.ArrayList4" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.arraylist.Arrays" />
+    <configuration name="ExcepCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.exceptions.ExcepCheck" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.arraylist.*" />
+          <option name="PATTERN" value="oca.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,46 +127,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.junk.Runner" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.junk.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.javaApi.TimeApi" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.javaApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TimeApi" />
       <item itemvalue="Application.FindLeap" />
-      <item itemvalue="Application.Runner" />
-      <item itemvalue="Application.Arrays" />
-      <item itemvalue="Application.ArrayListInt" />
+      <item itemvalue="Application.ExcepCheck" />
+      <item itemvalue="Application.AboutMyExceptions" />
+      <item itemvalue="Application.AboutFinally" />
+      <item itemvalue="Application.ArrayList4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayList4" />
+        <item itemvalue="Application.AboutFinally" />
+        <item itemvalue="Application.AboutMyExceptions" />
+        <item itemvalue="Application.ExcepCheck" />
         <item itemvalue="Application.FindLeap" />
-        <item itemvalue="Application.Arrays" />
-        <item itemvalue="Application.ArrayListInt" />
-        <item itemvalue="Application.Runner" />
-        <item itemvalue="Application.TimeApi" />
       </list>
     </recent_temporary>
   </component>
