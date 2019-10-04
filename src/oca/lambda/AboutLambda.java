@@ -12,7 +12,6 @@ class MoreSheep {
         }
     }
 }
-
 public class AboutLambda {
     static boolean aFlag = true;
     static String aStringFlag = "";
@@ -24,26 +23,6 @@ public class AboutLambda {
 
         String resultString = aStringFlag = "abc";
         System.out.println(resultString);
-
-        // Predicate go = () -> a = true;
-
-//        var sheep = new MoreSheep();
-//
-//        sheep.go(s -> a == true );
-//        sheep.go(s -> a == false );
-//        sheep.go(s -> {
-//            boolean val = (a = false);
-//            System.out.println(val);
-//            return val;
-//        } );
-//
-//        var i = 0;
-//
-//        if (++i + 2 >= 5 || ++i + 2 > 6) {
-//            System.out.println("First");
-//
-//        }
-//        System.out.println(i);
     }
 
 }

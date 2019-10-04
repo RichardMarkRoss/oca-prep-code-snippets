@@ -9,7 +9,7 @@ enum Animals{
     }
 }
 public class TestEnum {
-    static Animals a; // what does this do??
+    static Animals a;
 
     public static void main(String[] args) {
         System.out.println(a.DOG.sound + " " + a.FISH.sound);

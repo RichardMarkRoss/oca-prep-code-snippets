@@ -17,10 +17,8 @@ public class Arrays {
 //        list2.add(null);
         list2.add("Ravi");
         list2.add(new String("Killer"));
-//        list2.remove(null);
 
-
-        list.add("Ravi");//Adding object in arraylist
+        list.add("Ravi");
         list.add("Vijay");
         list.add(null);
         list.add("Ajay");
@@ -28,9 +26,6 @@ public class Arrays {
 //        list.set(4,"mark");
         list.removeAll(list2);
         //Invoking arraylist object
-//        list.remove(null); // remove object in arraylist
-//        list.add(null);/
-
         System.out.println(list);
     }
 }
