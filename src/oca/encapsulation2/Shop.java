@@ -8,7 +8,5 @@ public class Shop {
 
         soap.setDescription("Dove 100g");
         soap.setPrice(19.99);
-
-
     }
 }

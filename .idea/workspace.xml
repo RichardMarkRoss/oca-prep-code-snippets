@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/arraylist/ArrayDeclare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/arraylist/ArrayDeclare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/arraylist/ArrayDimensions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/arraylist/ArrayDimensions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/arraylist/Cities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/arraylist/Cities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/arraylist/TweakList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/arraylist/TweakList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/encapsulation/DairyProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/encapsulation/DairyProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/encapsulation2/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/encapsulation2/Shop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/stringBuilder/InsertMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/stringBuilder/InsertMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/stringBuilder/ReverseMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/stringBuilder/ReverseMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/stringBuilder/ToStringMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/stringBuilder/ToStringMethod.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +69,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringApi">
-    <configuration name="EqualTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.Equality.EqualTo" />
+  <component name="RunManager" selected="Application.ArrayDimensions">
+    <configuration name="ArrayDeclare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.arraylist.ArrayDeclare" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.Equality.*" />
+          <option name="PATTERN" value="oca.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.exceptions.ExceptionRun" />
+    <configuration name="ArrayDimensions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.arraylist.ArrayDimensions" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.exceptions.*" />
+          <option name="PATTERN" value="oca.arraylist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindLeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.javaApi.FindLeap" />
+    <configuration name="InsertMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.stringBuilder.InsertMethod" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.javaApi.*" />
+          <option name="PATTERN" value="oca.stringBuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.javaApi.StringApi" />
+    <configuration name="ReverseMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.stringBuilder.ReverseMethod" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.javaApi.*" />
+          <option name="PATTERN" value="oca.stringBuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimeApi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.javaApi.TimeApi" />
+    <configuration name="ToStringMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.stringBuilder.ToStringMethod" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.javaApi.*" />
+          <option name="PATTERN" value="oca.stringBuilder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ExceptionRun" />
-      <item itemvalue="Application.EqualTo" />
-      <item itemvalue="Application.StringApi" />
-      <item itemvalue="Application.TimeApi" />
-      <item itemvalue="Application.FindLeap" />
+      <item itemvalue="Application.InsertMethod" />
+      <item itemvalue="Application.ReverseMethod" />
+      <item itemvalue="Application.ToStringMethod" />
+      <item itemvalue="Application.ArrayDeclare" />
+      <item itemvalue="Application.ArrayDimensions" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringApi" />
-        <item itemvalue="Application.FindLeap" />
-        <item itemvalue="Application.TimeApi" />
-        <item itemvalue="Application.EqualTo" />
-        <item itemvalue="Application.ExceptionRun" />
+        <item itemvalue="Application.ArrayDimensions" />
+        <item itemvalue="Application.ArrayDeclare" />
+        <item itemvalue="Application.ToStringMethod" />
+        <item itemvalue="Application.ReverseMethod" />
+        <item itemvalue="Application.InsertMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563876242820</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LocalDate &amp; LocalDateTime session">
+      <created>1570438572940</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570438572940</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
