@@ -7,11 +7,12 @@ public class StringApi {
         System.out.println(name);
         String name1 = "richard";
         System.out.println(name==(name1));
-
+        String holder = "r i c h a r d";
         System.out.println(name.startsWith("r"));
         System.out.println(name.charAt(3));
         System.out.println(name.indexOf("r")); // unknown values will return -1
         System.out.println(name.replace("richard","richard"));
         System.out.println(name.length());
+        System.out.println(name.trim()==name);
     }
 }

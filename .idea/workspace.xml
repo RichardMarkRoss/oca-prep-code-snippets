@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/junk/DivSeven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/arraylist/Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/arraylist/Arrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/exceptions/ExceptionRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/exceptions/ExceptionRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/javaApi/FindLeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/javaApi/FindLeap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/javaApi/StringApi.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,7 +59,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindLeap">
+  <component name="RunManager" selected="Application.StringApi">
     <configuration name="EqualTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oca.Equality.EqualTo" />
       <module name="OCAExamples" />
@@ -138,9 +134,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringApi" />
         <item itemvalue="Application.FindLeap" />
         <item itemvalue="Application.TimeApi" />
-        <item itemvalue="Application.StringApi" />
         <item itemvalue="Application.EqualTo" />
         <item itemvalue="Application.ExceptionRun" />
       </list>
