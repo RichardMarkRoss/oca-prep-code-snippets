@@ -1,11 +1,15 @@
 package oca.exceptions;
 
-public class ExceptionRun  {
+public class ExceptionRun extends Throwable {
 
-    public void names() throws Exception{
-
+    public static void names() throws ExceptionRun {
+        throw new ExceptionRun();
     }
     public static void main(String[] args) {
-            ExceptionRun exceptionRun = new ExceptionRun();
+        try {
+            ExceptionRun.names();
+        } catch (ExceptionRun e) {
+            e.printStackTrace();
+        }
     }
 }
