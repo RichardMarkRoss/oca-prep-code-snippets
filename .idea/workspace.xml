@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/arraylist/JIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/PowerFinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/lambda/Java8Tester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/polymorphism/ToStringStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/polymorphism/ToStringStuff.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +62,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JIT">
-    <configuration name="ArrayDeclare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.arraylist.ArrayDeclare" />
+  <component name="RunManager" selected="Application.AboutFunctionalInterfaces">
+    <configuration name="AboutFunctionalInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutFunctionalInterfaces" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.arraylist.*" />
+          <option name="PATTERN" value="oca.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayDimensions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.arraylist.ArrayDimensions" />
+    <configuration name="AboutLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutLambda" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.arraylist.*" />
+          <option name="PATTERN" value="oca.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JIT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.arraylist.JIT" />
+    <configuration name="AboutPredicatesWithObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutPredicatesWithObjects" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.arraylist.*" />
+          <option name="PATTERN" value="oca.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.stringBuilder.ReverseMethod" />
+    <configuration name="Java8Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.lambda.Java8Tester" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.stringBuilder.*" />
+          <option name="PATTERN" value="oca.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.stringBuilder.ToStringMethod" />
+    <configuration name="PowerFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.PowerFinder" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.stringBuilder.*" />
+          <option name="PATTERN" value="oca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ReverseMethod" />
-      <item itemvalue="Application.ToStringMethod" />
-      <item itemvalue="Application.ArrayDeclare" />
-      <item itemvalue="Application.ArrayDimensions" />
-      <item itemvalue="Application.JIT" />
+      <item itemvalue="Application.PowerFinder" />
+      <item itemvalue="Application.AboutLambda" />
+      <item itemvalue="Application.Java8Tester" />
+      <item itemvalue="Application.AboutPredicatesWithObjects" />
+      <item itemvalue="Application.AboutFunctionalInterfaces" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JIT" />
-        <item itemvalue="Application.ArrayDimensions" />
-        <item itemvalue="Application.ArrayDeclare" />
-        <item itemvalue="Application.ToStringMethod" />
-        <item itemvalue="Application.ReverseMethod" />
+        <item itemvalue="Application.AboutFunctionalInterfaces" />
+        <item itemvalue="Application.AboutPredicatesWithObjects" />
+        <item itemvalue="Application.Java8Tester" />
+        <item itemvalue="Application.AboutLambda" />
+        <item itemvalue="Application.PowerFinder" />
       </list>
     </recent_temporary>
   </component>

@@ -9,10 +9,6 @@ class One {
         this.name = name;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Yo " + name;
-//    }
 }
 
 public class ToStringStuff {
