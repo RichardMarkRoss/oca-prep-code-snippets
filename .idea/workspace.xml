@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/PowerFinder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/lambda/Java8Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/Airtime/Airtime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/Bingo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/localdatetime/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/loops/Loopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/polymorphism/ToStringStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/polymorphism/ToStringStuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/lambda/Java8Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/Java8Tester.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +64,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AboutFunctionalInterfaces">
-    <configuration name="AboutFunctionalInterfaces" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutFunctionalInterfaces" />
+  <component name="RunManager" selected="Application.Bingo">
+    <configuration name="AboutPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutPredicate" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AboutLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutLambda" />
+    <configuration name="Airtime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.Airtime.Airtime" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.lambda.*" />
+          <option name="PATTERN" value="oca.Airtime.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AboutPredicatesWithObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutPredicatesWithObjects" />
+    <configuration name="Bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.Bingo" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.lambda.*" />
+          <option name="PATTERN" value="oca.junk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Java8Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.Java8Tester" />
+    <configuration name="Loopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.loops.Loopy" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.lambda.*" />
+          <option name="PATTERN" value="oca.loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PowerFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.PowerFinder" />
+    <configuration name="Statik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.static_methods.Statik" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.*" />
+          <option name="PATTERN" value="oca.static_methods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PowerFinder" />
-      <item itemvalue="Application.AboutLambda" />
-      <item itemvalue="Application.Java8Tester" />
-      <item itemvalue="Application.AboutPredicatesWithObjects" />
-      <item itemvalue="Application.AboutFunctionalInterfaces" />
+      <item itemvalue="Application.AboutPredicate" />
+      <item itemvalue="Application.Loopy" />
+      <item itemvalue="Application.Statik" />
+      <item itemvalue="Application.Airtime" />
+      <item itemvalue="Application.Bingo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AboutFunctionalInterfaces" />
-        <item itemvalue="Application.AboutPredicatesWithObjects" />
-        <item itemvalue="Application.Java8Tester" />
-        <item itemvalue="Application.AboutLambda" />
-        <item itemvalue="Application.PowerFinder" />
+        <item itemvalue="Application.Bingo" />
+        <item itemvalue="Application.Airtime" />
+        <item itemvalue="Application.Statik" />
+        <item itemvalue="Application.Loopy" />
+        <item itemvalue="Application.AboutPredicate" />
       </list>
     </recent_temporary>
   </component>

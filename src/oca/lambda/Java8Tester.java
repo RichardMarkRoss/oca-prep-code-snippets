@@ -2,31 +2,6 @@ package oca.lambda;
 
 public class Java8Tester {
 
-    public static void main(String args[]) {
-        Java8Tester tester = new Java8Tester();
-        //with type declaration
-        MathOperation addition = (int a, int b) -> a + b;
-        //with out type declaration
-        MathOperation subtraction = (a, b) -> a - b;
-        //with return statement along with curly braces
-        MathOperation multiplication = (int a, int b) -> { return a * b; };
-        //without return statement and without curly braces
-        MathOperation division = (int a, int b) -> a / b;
-        System.out.println("10 + 5 = " + tester.operate(10, 5, addition));
-        System.out.println("10 - 5 = " + tester.operate(10, 5, subtraction));
-        System.out.println("10 x 5 = " + tester.operate(10, 5, multiplication));
-        System.out.println("10 / 5 = " + tester.operate(10, 5, division));
-        //without parenthesis
-        GreetingService greetService1 = message ->
-                System.out.println("Hello " + message);
-
-        //with parenthesis
-        GreetingService greetService2 = (message) ->
-                System.out.println("Hello " + message);
-        greetService1.sayMessage("Richard");
-        greetService2.sayMessage("Unalo");
-    }
-
     interface MathOperation {
         int operation(int a, int b);
     }
@@ -37,5 +12,27 @@ public class Java8Tester {
 
     private int operate(int a, int b, MathOperation mathOperation) {
         return mathOperation.operation(a, b);
+    }
+
+    public static void main(String args[]) {
+        Java8Tester tester = new Java8Tester();
+
+        MathOperation addition = (int a, int b) -> a + b;// ohky so this does the functional programme and returns the answer
+        MathOperation subtraction = (a, b) -> a - b;
+        MathOperation multiplication = (int a, int b) -> {return a * b;};
+        MathOperation division = (int a, int b) -> a / b;
+        MathOperation remainder = (int a, int b) -> a % b;
+
+        GreetingService greetService1 = message -> System.out.println("Hello " + message);
+        GreetingService greetService2 = (message) -> System.out.println("Hello " + message);
+
+        greetService1.sayMessage("Richard");
+        greetService2.sayMessage("Unalo");
+
+        System.out.println("addition: " + tester.operate(10, 5, addition));
+        System.out.println("Subtraction: " + tester.operate(10, 5, subtraction));
+        System.out.println("multiplication: " + tester.operate(10, 5, multiplication));
+        System.out.println("division: " + tester.operate(10, 5, division));
+        System.out.println("Renainder: " + tester.operate(10, 5, remainder));
     }
 }
