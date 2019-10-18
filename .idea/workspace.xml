@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TesstingPredicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TestListChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TestMethodThingy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TestingMainMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/junk/Bingo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/Bingo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/junk/BuyCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/BuyCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/static_methods/Statik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/static_methods/Statik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +63,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuyCar">
-    <configuration name="Airtime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.Airtime.Airtime" />
+  <component name="RunManager" selected="Application.TestListChar">
+    <configuration name="AboutLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutLambda" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.Airtime.*" />
+          <option name="PATTERN" value="oca.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.junk.Bingo" />
+    <configuration name="TesstingPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TesstingPredicates" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.junk.*" />
+          <option name="PATTERN" value="oca.OCAprep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BuyCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.junk.BuyCar" />
+    <configuration name="TestListChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TestListChar" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.junk.*" />
+          <option name="PATTERN" value="oca.OCAprep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.loops.Loopy" />
+    <configuration name="TestMethodThingy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TestMethodThingy" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.loops.*" />
+          <option name="PATTERN" value="oca.OCAprep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Statik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.static_methods.Statik" />
+    <configuration name="TestingMainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TestingMainMethod" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.static_methods.*" />
+          <option name="PATTERN" value="oca.OCAprep.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +130,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Loopy" />
-      <item itemvalue="Application.Statik" />
-      <item itemvalue="Application.Airtime" />
-      <item itemvalue="Application.Bingo" />
-      <item itemvalue="Application.BuyCar" />
+      <item itemvalue="Application.AboutLambda" />
+      <item itemvalue="Application.TestMethodThingy" />
+      <item itemvalue="Application.TestingMainMethod" />
+      <item itemvalue="Application.TesstingPredicates" />
+      <item itemvalue="Application.TestListChar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BuyCar" />
-        <item itemvalue="Application.Statik" />
-        <item itemvalue="Application.Bingo" />
-        <item itemvalue="Application.Airtime" />
-        <item itemvalue="Application.Loopy" />
+        <item itemvalue="Application.TestListChar" />
+        <item itemvalue="Application.TestMethodThingy" />
+        <item itemvalue="Application.TestingMainMethod" />
+        <item itemvalue="Application.TesstingPredicates" />
+        <item itemvalue="Application.AboutLambda" />
       </list>
     </recent_temporary>
   </component>

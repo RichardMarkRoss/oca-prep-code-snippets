@@ -1,11 +1,31 @@
 package oca.lambda;
 
 import java.util.function.Predicate;
+interface MorePredicates{
 
-class MoreSheep {
-    void go(Predicate<MoreSheep> e) {
-        MoreSheep sheep = new MoreSheep();
-        if (e.test(sheep)) {
+    int getAge();
+    String getGender();
+    static void go(Predicate<MoreSheep> e) {}
+    static Predicate<MoreSheep> isAdultMale() {
+        return p -> p.getAge() > 21 && p.getGender().equalsIgnoreCase("M");
+    }
+}
+
+class MoreSheep implements MorePredicates {
+    @Override
+    public int getAge() {
+        return 30;
+    }
+
+    @Override
+    public String getGender() {
+        return "M";
+    }
+
+
+    static void  go(Predicate<MoreSheep> e) {
+        MorePredicates sheep = new MoreSheep();
+        if (e.test((MoreSheep) sheep)) {
             System.out.println("it is true");
         } else {
             System.out.println("it is false");
@@ -21,7 +41,9 @@ public class AboutLambda {
         MoreSheep moreSheep = new MoreSheep();
         boolean result = aFlag = false;
         int car = 30;
-//        boolean name = name1 -> (name1 == 11) : false ? true;
-        moreSheep.go(moreSheep1 -> aFlag);
+        MoreSheep.go(moreSheep1 -> aFlag);
+        MoreSheep.go(moreSheep1 -> true);
+
+
    }
 }
