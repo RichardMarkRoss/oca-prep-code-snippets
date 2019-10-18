@@ -1,13 +1,13 @@
 package oca.junk;
 
 class Mains {
-
     public static int[] nbMonths(int startPriceOld, int startPriceNew, int savingperMonth, double percentLossByMonth) {
         int oldPrice = startPriceOld;
         int newPrice = startPriceNew;
         double percentage = percentLossByMonth;
         int counter = 0;
         int savings =0;
+
         while(oldPrice < newPrice){
             counter++;
             if((counter % 2) == 0){
@@ -17,10 +17,13 @@ class Mains {
             newPrice -= (int) (( percentage * newPrice ) / 100);
             if (((savingperMonth*counter)+oldPrice) >= newPrice){
                 savings = ((savingperMonth*counter)+oldPrice) % newPrice;
+                System.out.println(savings);
                 return new int[]{counter, savings};
             }
         }
         int largerAmount = startPriceOld-startPriceNew;
+        System.out.println(largerAmount);
+        System.out.println(counter);
         return new int[]{counter, largerAmount};
     }
 }

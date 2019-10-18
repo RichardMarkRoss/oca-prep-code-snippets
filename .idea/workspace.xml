@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/Airtime/Airtime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/junk/Bingo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/localdatetime/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/loops/Loopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutPredicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/lambda/Java8Tester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/Java8Tester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/junk/Bingo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/Bingo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/junk/BuyCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/BuyCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/static_methods/Statik.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/static_methods/Statik.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,20 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bingo">
-    <configuration name="AboutPredicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutPredicate" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.BuyCar">
     <configuration name="Airtime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oca.Airtime.Airtime" />
       <module name="OCAExamples" />
@@ -93,6 +77,19 @@
     </configuration>
     <configuration name="Bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="oca.junk.Bingo" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.junk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuyCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.BuyCar" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -131,19 +128,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AboutPredicate" />
       <item itemvalue="Application.Loopy" />
       <item itemvalue="Application.Statik" />
       <item itemvalue="Application.Airtime" />
       <item itemvalue="Application.Bingo" />
+      <item itemvalue="Application.BuyCar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BuyCar" />
+        <item itemvalue="Application.Statik" />
         <item itemvalue="Application.Bingo" />
         <item itemvalue="Application.Airtime" />
-        <item itemvalue="Application.Statik" />
         <item itemvalue="Application.Loopy" />
-        <item itemvalue="Application.AboutPredicate" />
       </list>
     </recent_temporary>
   </component>
