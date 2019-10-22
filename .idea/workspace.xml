@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Line.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/AutoBoxing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Statik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/WorkingString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/OCAprep/TesstingPredicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/OCAprep/TesstingPredicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/Primitives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/Primitives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/junk/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +62,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.inhertFrom">
-    <configuration name="Groups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Groups" />
+  <component name="RunManager" selected="Application.AutoBoxing">
+    <configuration name="AutoBoxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.AutoBoxing" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -91,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesstingPredicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TesstingPredicates" />
+    <configuration name="Statik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Statik" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.OCAprep.*" />
+          <option name="PATTERN" value="playingWithStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestListChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TestListChar" />
+    <configuration name="WorkingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.WorkingString" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.OCAprep.*" />
+          <option name="PATTERN" value="playingWithStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,19 +129,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TesstingPredicates" />
-      <item itemvalue="Application.TestListChar" />
-      <item itemvalue="Application.Groups" />
       <item itemvalue="Application.Line" />
       <item itemvalue="Application.inhertFrom" />
+      <item itemvalue="Application.Statik" />
+      <item itemvalue="Application.WorkingString" />
+      <item itemvalue="Application.AutoBoxing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoBoxing" />
+        <item itemvalue="Application.WorkingString" />
+        <item itemvalue="Application.Statik" />
         <item itemvalue="Application.inhertFrom" />
         <item itemvalue="Application.Line" />
-        <item itemvalue="Application.Groups" />
-        <item itemvalue="Application.TesstingPredicates" />
-        <item itemvalue="Application.TestListChar" />
       </list>
     </recent_temporary>
   </component>

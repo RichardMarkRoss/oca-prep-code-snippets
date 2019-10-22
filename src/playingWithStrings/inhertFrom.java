@@ -1,5 +1,4 @@
 package playingWithStrings;
-
 class A{
     final int g = 10;
     public String a(){
@@ -19,7 +18,6 @@ class C extends B{
         return "C";
     }
 }
-
 public class inhertFrom {
     public static void main(String[] args) {
         A a1 = new A();
