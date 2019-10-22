@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TesstingPredicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TestListChar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TestMethodThingy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/OCAprep/TestingMainMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Groups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/OCAprep/TesstingPredicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/OCAprep/TesstingPredicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/Primitives.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/Primitives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/junk/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/junk/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +64,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestListChar">
-    <configuration name="AboutLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutLambda" />
+  <component name="RunManager" selected="Application.inhertFrom">
+    <configuration name="Groups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Groups" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.lambda.*" />
+          <option name="PATTERN" value="playingWithStrings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Line" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="playingWithStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,25 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMethodThingy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TestMethodThingy" />
+    <configuration name="inhertFrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.inhertFrom" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.OCAprep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestingMainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.OCAprep.TestingMainMethod" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.OCAprep.*" />
+          <option name="PATTERN" value="playingWithStrings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AboutLambda" />
-      <item itemvalue="Application.TestMethodThingy" />
-      <item itemvalue="Application.TestingMainMethod" />
       <item itemvalue="Application.TesstingPredicates" />
       <item itemvalue="Application.TestListChar" />
+      <item itemvalue="Application.Groups" />
+      <item itemvalue="Application.Line" />
+      <item itemvalue="Application.inhertFrom" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestListChar" />
-        <item itemvalue="Application.TestMethodThingy" />
-        <item itemvalue="Application.TestingMainMethod" />
+        <item itemvalue="Application.inhertFrom" />
+        <item itemvalue="Application.Line" />
+        <item itemvalue="Application.Groups" />
         <item itemvalue="Application.TesstingPredicates" />
-        <item itemvalue="Application.AboutLambda" />
+        <item itemvalue="Application.TestListChar" />
       </list>
     </recent_temporary>
   </component>
