@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/AutoBoxing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Statik.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/WorkingString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/constructors/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/InterfaceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/StaticM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/StringBuild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playingWithStrings/AutoBoxing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playingWithStrings/AutoBoxing.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,9 +64,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AutoBoxing">
-    <configuration name="AutoBoxing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.AutoBoxing" />
+  <component name="RunManager" selected="Application.StaticM">
+    <configuration name="InterfaceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.InterfaceDemo" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -76,8 +78,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Line" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Line" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.constructors.MyClass" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.constructors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.StaticM" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -89,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Statik" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Statik" />
+    <configuration name="StringBuild" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.StringBuild" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -102,21 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkingString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.WorkingString" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="playingWithStrings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="inhertFrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.inhertFrom" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Test" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -129,19 +131,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Line" />
-      <item itemvalue="Application.inhertFrom" />
-      <item itemvalue="Application.Statik" />
-      <item itemvalue="Application.WorkingString" />
-      <item itemvalue="Application.AutoBoxing" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.MyClass" />
+      <item itemvalue="Application.StringBuild" />
+      <item itemvalue="Application.InterfaceDemo" />
+      <item itemvalue="Application.StaticM" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AutoBoxing" />
-        <item itemvalue="Application.WorkingString" />
-        <item itemvalue="Application.Statik" />
-        <item itemvalue="Application.inhertFrom" />
-        <item itemvalue="Application.Line" />
+        <item itemvalue="Application.StaticM" />
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.InterfaceDemo" />
+        <item itemvalue="Application.StringBuild" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>

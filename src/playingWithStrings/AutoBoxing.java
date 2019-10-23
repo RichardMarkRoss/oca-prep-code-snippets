@@ -11,7 +11,8 @@ public class AutoBoxing {
         list.add(new Integer(1));
         list.add(0);
 
-        list.remove(list.indexOf(0));
+        list.remove(list.indexOf(1));
+        list.remove(0);
 
         System.out.println(list);
     }
