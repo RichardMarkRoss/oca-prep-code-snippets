@@ -1,6 +1,6 @@
 package oca.inheritance.with_exceptions;
 
-class WeekdayException extends Exception {
+class WeekdayException extends Throwable {
 
 }
 
@@ -23,7 +23,7 @@ class Monday implements WeekDay {
 class Tuesday implements WeekDay {
 
     @Override
-    public void study() throws TuesdayException { // can't throw Exception here
+    public void study() throws WeekdayException { // can't throw Exception here
 
     }
 }
@@ -31,10 +31,10 @@ class Tuesday implements WeekDay {
 
 public class AboutInterfaceWithExceptions {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws WeekdayException {
         Monday monday = new Monday();
         Tuesday tuesday = new Tuesday();
-        // tuesday.study();
+         tuesday.study();
         // monday.study();
     }
 

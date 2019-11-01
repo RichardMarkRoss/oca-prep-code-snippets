@@ -14,3 +14,4 @@ public class Parrot extends Bird implements Species{
         System.out.println("move forward");
     }
 }
+
