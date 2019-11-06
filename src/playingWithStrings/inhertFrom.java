@@ -2,28 +2,33 @@ package playingWithStrings;
 interface Methods{
     String b();
 }
+
 class A implements Methods{
     final int g = 10;
     public String a(){
         return "A";
     }
+
     @Override
     public String b() {
         return "interface";
     }
 }
+
 class B extends A{
     final int g = 11;
     public String a(){
         return "B";
     }
 }
+
 class C extends B{
     final int g = 12;
     public String a(){
         return "C";
     }
 }
+
 public class inhertFrom {
     public static void main(String[] args) {
         A a1 = new A();

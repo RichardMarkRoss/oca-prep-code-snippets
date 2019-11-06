@@ -14,7 +14,8 @@ public class Main {
         Fish dora = (Fish)nemo;
         dora.swim();
         nemo.eat();
-        parrot.move(); // print form the interface
+        System.out.println();
+        parrot.move(); // its an overrided method form the interface
         parrot.talk();
         parrot.eat();
         parrot.fly();

@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/javaApi/StringIntern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/package1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/package2/Other.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/JavaBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/MathCauseKatas/SumFct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/for_loops/DeepNestedLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/for_loops/Loopty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/for_loops/NewLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/inheritance/with_exceptions/ImpleMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/AnimalGather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/TestPlayerBaseShapes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/inheritance/with_exceptions/AboutInterfaceWithExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/inheritance/with_exceptions/AboutInterfaceWithExceptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/inheritanceWorkShop/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/inheritanceWorkShop/Parrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/lambda/AboutLambdas2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/lambda/AboutLambdas2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/for_loops/AboutLoopBreaks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/for_loops/AboutLoopBreaks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/inheritanceWorkShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/inheritanceWorkShop/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/playingWithStrings/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playingWithStrings/Line.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566299350761" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/oca-final" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -67,13 +70,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StringIntern">
-    <configuration name="AboutLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutLambda" />
+  <component name="RunManager" selected="Application.Loopty">
+    <configuration name="AnimalGather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.AnimalGather" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.lambda.*" />
+          <option name="PATTERN" value="oca.junk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AboutLambdas2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.lambda.AboutLambdas2" />
+    <configuration name="JavaBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.JavaBasic" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.lambda.*" />
+          <option name="PATTERN" value="oca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringIntern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.javaApi.StringIntern" />
+    <configuration name="Loopty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.for_loops.Loopty" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.javaApi.*" />
+          <option name="PATTERN" value="oca.for_loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.Tester" />
+    <configuration name="NewLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.for_loops.NewLoop" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playingWithStrings.*" />
+          <option name="PATTERN" value="oca.for_loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inhertFrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="playingWithStrings.inhertFrom" />
+    <configuration name="SumFct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.MathCauseKatas.SumFct" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="playingWithStrings.*" />
+          <option name="PATTERN" value="oca.MathCauseKatas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +137,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.inhertFrom" />
-      <item itemvalue="Application.AboutLambda" />
-      <item itemvalue="Application.AboutLambdas2" />
-      <item itemvalue="Application.Tester" />
-      <item itemvalue="Application.StringIntern" />
+      <item itemvalue="Application.SumFct" />
+      <item itemvalue="Application.JavaBasic" />
+      <item itemvalue="Application.AnimalGather" />
+      <item itemvalue="Application.NewLoop" />
+      <item itemvalue="Application.Loopty" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringIntern" />
-        <item itemvalue="Application.Tester" />
-        <item itemvalue="Application.AboutLambdas2" />
-        <item itemvalue="Application.inhertFrom" />
-        <item itemvalue="Application.AboutLambda" />
+        <item itemvalue="Application.Loopty" />
+        <item itemvalue="Application.NewLoop" />
+        <item itemvalue="Application.SumFct" />
+        <item itemvalue="Application.AnimalGather" />
+        <item itemvalue="Application.JavaBasic" />
       </list>
     </recent_temporary>
   </component>
