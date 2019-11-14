@@ -4,20 +4,20 @@ import java.math.*;
 
 public class SumFct {
     public static BigInteger perimeter(BigInteger n){
-        long n1 = 0;
-        long n2 = 1;
-        long n3 = 0;
-        long n4 = 0;
+        BigInteger n1 = BigInteger.valueOf(0);
+        BigInteger n2 = BigInteger.valueOf(1);
+        BigInteger n3 = BigInteger.valueOf(0);
+        BigInteger n4 = BigInteger.valueOf(0);
+
         long value = Long.parseLong(String.valueOf(n));
-//        System.out.println(value);
+
         for (int i = 0; i < value; i++){
-            n3 = n2 + n1;
+            n3 = n2.add(n1);
             n1 = n2;
             n2 = n3;
-            n4 += n3;
+            n4 = n4.add(n3);
         }
-//        String form = String.valueOf((n4+1)*4);
-        return new BigInteger(String.valueOf((n4+1)*4));
+        return new BigInteger(String.valueOf((n4.add(BigInteger.valueOf(1))).multiply(BigInteger.valueOf(4))));
     }
 
     public static void main(String[] args){

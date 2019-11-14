@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb25a2b5-341f-48f5-99e9-03b48419d1ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/oca/JavaBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/MathCauseKatas/SumFct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/for_loops/DeepNestedLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/for_loops/Loopty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/for_loops/NewLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/inheritance/with_exceptions/ImpleMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oca/junk/AnimalGather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/TestPlayerBaseShapes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/AnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/InitilizationBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/Interfaceses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/PrimitivesFromInter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/TestClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oca/junk/WorkingWithAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/playingWithStrings/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/for_loops/AboutLoopBreaks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/for_loops/AboutLoopBreaks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oca/inheritanceWorkShop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/inheritanceWorkShop/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playingWithStrings/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playingWithStrings/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/playingWithStrings/inhertFrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/StringFromChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/MathCauseKatas/SumFct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/MathCauseKatas/SumFct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/exceptions/ExceptionRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/exceptions/ExceptionRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/for_loops/Loopty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/for_loops/Loopty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/inheritance/clothing/InterfacesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oca/inheritance/clothing/InterfacesApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oca/junk/Animal.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,9 +30,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -70,9 +71,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Loopty">
-    <configuration name="AnimalGather" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.junk.AnimalGather" />
+  <component name="RunManager" selected="Application.TestClasses">
+    <configuration name="ExceptionRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.exceptions.ExceptionRun" />
+      <module name="OCAExamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oca.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InitilizationBlocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.InitilizationBlocks" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.JavaBasic" />
+    <configuration name="InterfacesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.inheritance.clothing.InterfacesApp" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.*" />
+          <option name="PATTERN" value="oca.inheritance.clothing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Loopty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.for_loops.Loopty" />
+    <configuration name="TestClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.TestClasses" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.for_loops.*" />
+          <option name="PATTERN" value="oca.junk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,25 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.for_loops.NewLoop" />
+    <configuration name="WorkingWithAbstract" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oca.junk.WorkingWithAbstract" />
       <module name="OCAExamples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oca.for_loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SumFct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oca.MathCauseKatas.SumFct" />
-      <module name="OCAExamples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oca.MathCauseKatas.*" />
+          <option name="PATTERN" value="oca.junk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SumFct" />
-      <item itemvalue="Application.JavaBasic" />
-      <item itemvalue="Application.AnimalGather" />
-      <item itemvalue="Application.NewLoop" />
-      <item itemvalue="Application.Loopty" />
+      <item itemvalue="Application.WorkingWithAbstract" />
+      <item itemvalue="Application.ExceptionRun" />
+      <item itemvalue="Application.InterfacesApp" />
+      <item itemvalue="Application.InitilizationBlocks" />
+      <item itemvalue="Application.TestClasses" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Loopty" />
-        <item itemvalue="Application.NewLoop" />
-        <item itemvalue="Application.SumFct" />
-        <item itemvalue="Application.AnimalGather" />
-        <item itemvalue="Application.JavaBasic" />
+        <item itemvalue="Application.TestClasses" />
+        <item itemvalue="Application.InitilizationBlocks" />
+        <item itemvalue="Application.InterfacesApp" />
+        <item itemvalue="Application.ExceptionRun" />
+        <item itemvalue="Application.WorkingWithAbstract" />
       </list>
     </recent_temporary>
   </component>
